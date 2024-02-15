@@ -56,7 +56,8 @@
         <form method="post" action="/merge" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="exampleFormControlFile1">Select The PDF Files You Want To Merge</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1" multiple accept=".pdf">
+                <input type="file" name="pdfs" class="form-control-file" id="exampleFormControlFile1" multiple
+                    accept=".pdf">
                 <input type="submit" value="submit" class="btn btn-primary my-4">
             </div>
         </form>
